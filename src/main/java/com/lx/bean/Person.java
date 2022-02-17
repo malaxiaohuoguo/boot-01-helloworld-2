@@ -1,7 +1,13 @@
 package com.lx.bean;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.stereotype.Component;
+
 import java.util.*;
 
+@Component
+@ConfigurationProperties(prefix = "person")
 public class Person {
 
         private String userName;
