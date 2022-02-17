@@ -1,5 +1,5 @@
 person:
-  username: zhangsan
+  userName: zhangsan
   boss: true
   birth: 2019/12/09
   age: 12
