@@ -11,6 +11,7 @@ public class Boot01Helloworld2Application {
         SpringApplication.run(Boot01Helloworld2Application.class, args);
 
         //1233211234567
+        System.out.println("dhsk");
     }
 
 }
